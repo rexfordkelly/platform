@@ -1,0 +1,19 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "nedb": "../data/",
+  "public": "../public/",
+  "auth": {
+    "token": {
+      "secret": "gVt8sEXw5PS0R6PWKvtg5O73Cq/AXf95ZKzyzo04t5u3b2ekPI4mSKwoRr+eu4HOQNcjHwM5tMpMxZnGKIPb0A=="
+    },
+    "local": {},
+    "google": {
+      "clientID": "your google client id",
+      "clientSecret": "your google client secret",
+      "permissions": {
+        "scope": ["profile"]
+      }
+    }
+  }
+}
